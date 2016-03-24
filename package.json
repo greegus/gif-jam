@@ -1,0 +1,23 @@
+{
+  "name": "gif-jam",
+  "version": "1.0.0",
+  "description": "Renders gif animation into static image as data URL",
+  "main": "gif-jam.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/greegus/gif-jam.git"
+  },
+  "keywords": [
+    "gif",
+    "static"
+  ],
+  "author": "matus.duchon@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/greegus/gif-jam/issues"
+  },
+  "homepage": "https://github.com/greegus/gif-jam"
+}
