@@ -2,6 +2,7 @@
 'use strict';
 
 export default function getStaticImageDataUrl(imageUrl) {
+function getStaticImageDataUrl(imageUrl) {
 	return new Promise((resolve, reject) => {
 		let image = new Image();
 
