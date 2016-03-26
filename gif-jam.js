@@ -1,4 +1,5 @@
 'use static';
+'use strict';
 
 export default function getStaticImageDataUrl(imageUrl) {
 	return new Promise((resolve, reject) => {
