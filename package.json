@@ -4,7 +4,7 @@
   "description": "Renders gif animation into static image as data URL",
   "main": "gif-jam.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node node_modules/http-server/bin/http-server -p 8080"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/greegus/gif-jam/issues"
   },
-  "homepage": "https://github.com/greegus/gif-jam"
+  "homepage": "https://github.com/greegus/gif-jam",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  }
 }

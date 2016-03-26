@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>GIF-jam Demo</title>
+	<script src="/gif-jam.js"></script>
+</head>
+<body>
+
+	<h1>GIF-jam Demo</h1>
+
+	<h2>Original</h2>
+	<img id="original">
+
+	<h2>Static</h2>
+	<img id="static">
+
+	<script>
+		var myGifUrl = './my.gif';
+
+		document.getElementById('original').src = myGifUrl;
+
+		getStaticImageDataUrl(myGifUrl)
+			.then(function(staticImageUrl) {
+				document.getElementById('static').src = staticImageUrl;
+			})
+	</script>
+
+</body>
+</html>
