@@ -1,6 +1,6 @@
 {
   "name": "gif-jam",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Renders gif animation into static image as data URL",
   "main": "gif-jam.js",
   "scripts": {
